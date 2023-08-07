@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0em;
+  box-sizing: border-box;
+  user-select: none;
+  background-color: gray;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-container {
+  width: 450px;
+  border: 1px solid black;
+}
+
+.menu-header {
+  height: 250px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.header-img {
+  width: 100%;
+  object-fit: contain;
+  opacity: 80%;
+}
+
+.menu-header-title {
+  position: absolute;
+  color: white;
+  top: 6.5em;
+  left: 41em;
+  text-shadow: 2px 2px 2px black;
+}
+
+.title-name {
+  margin-bottom: 0em;
+}
+
+.title-description {
+  margin-top: 0em;
+}
