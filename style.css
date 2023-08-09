@@ -26,7 +26,7 @@ main {
   display: block;
 }
 
-.menu-items {
+.menu-item {
   margin: 3em 4em;
   display: flex;
   border-bottom: 1px solid gray;
