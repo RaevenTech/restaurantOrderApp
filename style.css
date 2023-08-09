@@ -7,40 +7,52 @@ body {
 }
 
 main {
+  margin-top: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .menu-container {
-  width: 450px;
-  border: 1px solid black;
-}
-
-.menu-header {
-  height: 250px;
+  padding-bottom: 1em;
+  width: 37.5em;
+  border: 4px solid black;
+  border-radius: 20px;
   overflow: hidden;
-  border: 1px solid black;
+  background-color: rgb(228, 228, 228);
 }
 
 .header-img {
-  width: 100%;
-  object-fit: contain;
-  opacity: 80%;
+  display: block;
 }
 
-.menu-header-title {
-  position: absolute;
-  color: white;
-  top: 6.5em;
-  left: 41em;
-  text-shadow: 2px 2px 2px black;
+.menu-items {
+  margin: 3em 4em;
+  display: flex;
+  border-bottom: 1px solid gray;
 }
 
-.title-name {
-  margin-bottom: 0em;
+h3 {
+  margin-top: 0;
 }
 
-.title-description {
+p {
   margin-top: 0em;
+  color: gray;
+  font-size: .8rem;
+}
+
+.menu-item-name {
+  margin-bottom: 0.25em;
+}
+
+.add-btn {
+  color: rgb(98, 98, 98);
+  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 300;
+  margin-left: auto;
+  border: 1px solid gray;
+  border-radius: 50%;
+  height: 1.3em;
 }
