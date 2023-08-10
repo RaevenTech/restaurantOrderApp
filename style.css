@@ -26,6 +26,7 @@ main {
   display: block;
 }
 
+/* list of items on the menu */
 .menu-item {
   margin: 3em 4em;
   display: flex;
@@ -67,6 +68,7 @@ p {
   font-size: 1.5rem;
 }
 
+/* popup order of selected items */
 .selected-item {
   margin-top: 2em;
 }
@@ -75,4 +77,48 @@ p {
   margin: 3em 4em;
 }
 
-.item-ordered {}
+.order-receipt {
+  display: flex;
+  align-items: baseline;
+}
+
+.item-ordered {
+  display: flex;
+  align-items: end;
+}
+
+.item-name {
+  margin: 0em;
+}
+
+.remove-item-btn {
+  background-color: transparent;
+  border: none;
+  color: grey;
+  padding-bottom: .2em;
+}
+
+.selected-items-title {
+  margin-top: 0em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.order-price {
+  margin-left: auto;
+}
+
+.order-total {
+  border-top: 4px solid black;
+  display: flex;
+  padding-top: .5em;
+  align-items: baseline;
+}
+
+.total-order-price {
+  margin: 0em 0em 0em auto;
+}
+
+.complete-order-btn {
+  width: 100%;
+}
