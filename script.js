@@ -4,9 +4,6 @@ const menuItems = document.getElementById("menu-items")
 const selectedItem = document.getElementById("selected-item")
 const closeOrderBtn = document.getElementById("close-order-btn")
 
-
-
-
 let menuItemHtml = ""
 menuArray.forEach(function(item){
   item = `
